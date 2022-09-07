@@ -115,3 +115,26 @@ button {
     border-radius: 8px;
     margin-bottom: 8px;
 }
+
+/* Section 3 */
+.section3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#e5e7eb;
+    padding: 100px;
+}
+.quote {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 750px;
+}
+
+.closing {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    padding: 0px 30px;
+}
