@@ -71,7 +71,7 @@ li {
     list-style-type: none;
 }
 
-button {
+.button1 {
     background-color: #3882f6;
     font-size: 20px;
     color: #e5e7eb;
@@ -137,4 +137,45 @@ button {
     font-weight: bold;
     text-align: right;
     padding: 0px 30px;
+}
+
+/* Section 4 */
+.section4 {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    min-width: 700px;
+    padding: 50px 100px;
+    border-radius: 16px;
+}
+
+.call > *{
+    color: #e5e7eb;
+    margin: 0;
+}
+
+.call-button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 8px 16px;
+    border: 2px solid #f9faf8;
+    border-radius: 8px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 50px;
+    font-size: 18px;
+    color: #e5e7eb;
 }
